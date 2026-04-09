@@ -1,14 +1,14 @@
 [
   {
     "name": "Abhinav P V",
-    "profile_picture_url": "https://media.licdn.com/dms/image/v2/D5603AQFw1fLNLhdHaw/profile-displayphoto-shrink_800_800/B56ZSPBd5PHwAc-/0/1737566320257?e=1763596800&v=beta&t=lXD356yhBkbnde4hD1WLu417sWhT4NM9DBw9aX90Rf0",
+    "profile_picture_url": "/Abhinav_img.jpg",
     "team": "Coordinators",
     "year": "2025-present"
   },
   {
     "name": "Anushka Sharma",
     "profile_picture_url": "https://clubs.iiit.ac.in/_next/image?url=http%3A%2F%2Ffiles%2Ffiles%2Fdownload%3Ffilename%3DcuFyfGQqNKhbfAzaXAj7cm_WhatsApp_Image_2024-07-25_at_9.47.21_PM.jpeg&w=1080&q=75",
-    "team": "Social Media & Design",
+    "team": "Social Media and Outreach",
     "year": "2025-present"
   },
   {
@@ -25,21 +25,21 @@
   },
   {
     "name": "Advait Dintakurti",
-    "profile_picture_url": "https://media.licdn.com/dms/image/v2/D4E03AQEo5xxyPhqgBQ/profile-displayphoto-shrink_400_400/B4EZPzu62QHAAg-/0/1734960984518?e=1762387200&v=beta&t=YRiCmFbIagqeLRXrwzPH_-jk-9mla50ONY3ZqcEZ4sw",
+    "profile_picture_url": "1734960984496.jpg",
     "team": "Coordinators",
     "year": "2025-present"
   },
   {
     "name": "Aryan Patel",
     "profile_picture_url": "https://media.licdn.com/dms/image/v2/D4E03AQFug90kai0j2Q/profile-displayphoto-scale_400_400/B4EZgnJ4P2GoAg-/0/1753003559920?e=1762387200&v=beta&t=U3jsheBPNeJCGd6uTvENo6KmwqJMEK8Tt9M0st8o9qE",
-    "team": "Social Media & Design",
+    "team": "Social Media and Outreach",
     "year": "2025-present"
   },
   
   {
     "name": "Pragati Prasad",
     "profile_picture_url": "https://clubs.iiit.ac.in/_next/image?url=http%3A%2F%2Ffiles%2Ffiles%2Fdownload%3Ffilename%3DKdAxhnLmApjGgSsinVwGmJ_profile_pragati.prasad.png&w=1080&q=75",
-    "team": "Social Media & Design",
+    "team": "Social Media and Outreach",
     "year": "2025-present"
   },
   
@@ -52,27 +52,27 @@
   {
     "name": "Aman Jayesh",
     "profile_picture_url": "/aman.jpg",
-    "team": "Social Media & Design",
+    "team": "Social Media and Outreach",
     "year": "2025-present"
   },
   
   {
     "name": "Kaushik Yadala",
     "profile_picture_url": "/kaushik.jpg",
-    "team": "Events & Logistics",
+    "team": "Events and Logistics",
     "year": "2025-present"
   },
   
   {
     "name": "Anushka Sinha",
     "profile_picture_url": "/anushka.jpg",
-    "team": "Social Media & Design",
+    "team": "Social Media and Outreach",
     "year": "2025-present"
   },
   {
     "name": "Shaurya Bansal",
     "profile_picture_url": "/shaurya_bansal.JPG",
-    "team": "Social Media & Design",
+    "team": "Social Media and Outreach",
     "year": "2026-present"
   },
   {
@@ -108,7 +108,7 @@
   {
     "name": "Akshit Singla",
     "profile_picture_url": "",
-    "team": "Events & Logistics",
+    "team": "Events and Logistics",
     "year": "2026-present"
   },
   {
@@ -120,23 +120,23 @@
   {
     "name": "Kshitij Patkar",
     "profile_picture_url": "",
-    "team": "Design Team",
+    "team": "Design",
     "year": "2026-present"
   },
   {
-    "name": "Saraswathy M K",
+    "name": "Saraswathy Mohan Kongorpilly",
     "profile_picture_url": "/Saraswathy_MK.jpg",
-    "team": "Design Team",
+    "team": "Design",
     "year": "2026-present"
   },
   {
     "name": "Ambika S",
     "profile_picture_url": "/Ambika.jpg",
-    "team": "Social Media & Design",
+    "team": "Design",
     "year": "2026-present"
   },
   {
-    "name": "Teja Pudi",
+    "name": "Pudi Satya Sai Teja",
     "profile_picture_url": "/pudi.jpg",
     "team": "Projects Team",
     "year": "2026-present"
@@ -144,18 +144,78 @@
   {
     "name": "Anya Jain",
     "profile_picture_url": "/anya.jpg",
-    "team": "Events & Logistics",
+    "team": "Events and Logistics",
     "year": "2026-present"
   },
   {
-    "name": "Anivarth Varma P",
+    "name": "Anivarth Penumecha",
     "profile_picture_url": "/anivarth_pfp(1).jpg",
-    "team": "Social Media & Design",
+    "team": "Design",
     "year": "2026-present"
   },
   {
     "name": "Vikesh Kansal",
     "profile_picture_url": "/vikesh.jpg",
+    "team": "Projects Team",
+    "year": "2026-present"
+  },
+  {
+    "name": "Ashwin Krishna Hari",
+    "profile_picture_url": "",
+    "team": "Events and Logistics",
+    "year": "2026-present"
+  },
+  {
+    "name": "Kulkarni Aryan Pravin",
+    "profile_picture_url": "",
+    "team": "Events and Logistics",
+    "year": "2026-present"
+  },
+  {
+    "name": "Shambhavi Jha",
+    "profile_picture_url": "",
+    "team": "Events and Logistics",
+    "year": "2026-present"
+  },
+  {
+    "name": "Adimulam Snigdha",
+    "profile_picture_url": "",
+    "team": "Social Media and Outreach",
+    "year": "2026-present"
+  },
+  {
+    "name": "Hansika",
+    "profile_picture_url": "",
+    "team": "Social Media and Outreach",
+    "year": "2026-present"
+  },
+  {
+    "name": "Aryan Bansal",
+    "profile_picture_url": "",
+    "team": "Corporate",
+    "year": "2026-present"
+  },
+  {
+    "name": "Balasubramanian",
+    "profile_picture_url": "",
+    "team": "Corporate",
+    "year": "2026-present"
+  },
+  {
+    "name": "Daniel Vincent",
+    "profile_picture_url": "",
+    "team": "Corporate",
+    "year": "2026-present"
+  },
+  {
+    "name": "Balalikhith Kanigolla",
+    "profile_picture_url": "",
+    "team": "Projects Team",
+    "year": "2026-present"
+  },
+  {
+    "name": "Sian Shinjo",
+    "profile_picture_url": "",
     "team": "Projects Team",
     "year": "2026-present"
   }

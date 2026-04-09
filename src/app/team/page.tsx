@@ -36,7 +36,7 @@ const TeamPage: React.FC = () => {
   };
 
   const coordinatorMembers = groupByTeam('Coordinators');
-  const techMembers = groupByTeam('Projects Team');
+  const techMembers = groupByTeam('Projects');
   // Ensure tech members without profile pictures appear at the end.
   // Preserve alphabetical order otherwise.
   const techMembersSorted = techMembers.slice().sort((a, b) => {
@@ -45,10 +45,11 @@ const TeamPage: React.FC = () => {
     if (aHas === bHas) return a.name.localeCompare(b.name);
     return aHas ? -1 : 1;
   });
-  const corporateMembers = groupByTeam('Corporate & PR');
-  const eventMembers = groupByTeam('Events & Logistics');
-  const designMembers = groupByTeam('Social Media & Design');
-  const advisorMembers = groupByTeam('Advisors');
+  const corporateMembers = groupByTeam('Corporate');
+  const eventMembers = groupByTeam('Events and Logistics');
+  const designMembers = groupByTeam('Design');
+  const socialOutreachMembers = groupByTeam('Social Media and Outreach');
+  const advisorMembers = groupByTeam('Advisor');
 
   // Sort coordinators in specific order
   const sortedCoordinators = coordinatorMembers.sort((a, b) => {
@@ -108,7 +109,7 @@ const TeamPage: React.FC = () => {
       {techMembers.length > 0 && (
         <div className="max-w-7xl mx-auto mb-20">
           <h2 className="text-4xl font-bold text-center mb-16 text-cyan-400 font-oxanium">
-            Projects Team
+            Projects
           </h2>
           <div className="flex flex-wrap justify-center gap-12">
             {techMembersSorted.map((member, idx) => (
@@ -122,7 +123,7 @@ const TeamPage: React.FC = () => {
       {corporateMembers.length > 0 && (
         <div className="max-w-7xl mx-auto mb-20">
           <h2 className="text-4xl font-bold text-center mb-16 text-cyan-400 font-oxanium">
-            Corporate & PR
+            Corporate
           </h2>
           <div className="flex flex-wrap justify-center gap-12">
             {corporateMembers.map((member, idx) => (
@@ -136,7 +137,7 @@ const TeamPage: React.FC = () => {
       {eventMembers.length > 0 && (
         <div className="max-w-7xl mx-auto mb-20">
           <h2 className="text-4xl font-bold text-center mb-16 text-cyan-400 font-oxanium">
-            Events & Logistics
+            Events and Logistics
           </h2>
           <div className="flex flex-wrap justify-center gap-12">
             {eventMembers.map((member, idx) => (
@@ -150,10 +151,24 @@ const TeamPage: React.FC = () => {
       {designMembers.length > 0 && (
         <div className="max-w-7xl mx-auto mb-20">
           <h2 className="text-4xl font-bold text-center mb-16 text-cyan-400 font-oxanium">
-            Social Media & Design
+            Design
           </h2>
           <div className="flex flex-wrap justify-center gap-12">
             {designMembers.map((member, idx) => (
+              <MemberCard key={idx} member={member} />
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Social Media and Outreach */}
+      {socialOutreachMembers.length > 0 && (
+        <div className="max-w-7xl mx-auto mb-20">
+          <h2 className="text-4xl font-bold text-center mb-16 text-cyan-400 font-oxanium">
+            Social Media and Outreach
+          </h2>
+          <div className="flex flex-wrap justify-center gap-12">
+            {socialOutreachMembers.map((member, idx) => (
               <MemberCard key={idx} member={member} />
             ))}
           </div>
