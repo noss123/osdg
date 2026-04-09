@@ -6,12 +6,6 @@
     "year": "2025-present"
   },
   {
-    "name": "Anushka Sharma",
-    "profile_picture_url": "https://clubs.iiit.ac.in/_next/image?url=http%3A%2F%2Ffiles%2Ffiles%2Fdownload%3Ffilename%3DcuFyfGQqNKhbfAzaXAj7cm_WhatsApp_Image_2024-07-25_at_9.47.21_PM.jpeg&w=1080&q=75",
-    "team": "Social Media and Outreach",
-    "year": "2025-present"
-  },
-  {
     "name": "Arihant Tripathy",
     "profile_picture_url": "https://clubs.iiit.ac.in/_next/image?url=http%3A%2F%2Ffiles%2Ffiles%2Fdownload%3Ffilename%3DdVTEmvribGSMpBtSVucaNe_me.JPG&w=1080&q=75",
     "team": "Advisor",
@@ -78,31 +72,31 @@
   {
     "name": "Vedant Kulkarni",
     "profile_picture_url": "",
-    "team": "Projects Team",
+    "team": "Projects",
     "year": "2025-present"
   },
   {
     "name": "Aarnav Pai",
     "profile_picture_url": "",
-    "team": "Projects Team",
+    "team": "Projects",
     "year": "2025-present"
   },
   {
     "name": "Animish Sharma",
     "profile_picture_url": "https://media.licdn.com/dms/image/v2/D5603AQFqkfvmxlQSNQ/profile-displayphoto-shrink_400_400/B56ZTvPzF7GoAg-/0/1739180687654?e=1764201600&v=beta&t=-HUcbaNrBIoVRCousQZZnUwA4U5tdl5Rc5EnoxisTr4",
-    "team": "Projects Team",
+    "team": "Projects",
     "year": "2025-present"
   },
   {
     "name": "Tejas Agarwal",
     "profile_picture_url": "/tejasag.jpg",
-    "team": "Projects Team",
+    "team": "Projects",
     "year": "2026-present"
   },
   {
     "name": "Sanyam Asthana",
     "profile_picture_url": "",
-    "team": "Projects Team",
+    "team": "Projects",
     "year": "2026-present"
   },
   {
@@ -114,7 +108,7 @@
   {
     "name": "Soham Chakraborty",
     "profile_picture_url": "/soham.jpg",
-    "team": "Projects Team",
+    "team": "Projects",
     "year": "2026-present"
   },
   {
@@ -138,7 +132,7 @@
   {
     "name": "Pudi Satya Sai Teja",
     "profile_picture_url": "/pudi.jpg",
-    "team": "Projects Team",
+    "team": "Projects",
     "year": "2026-present"
   },
   {
@@ -156,7 +150,7 @@
   {
     "name": "Vikesh Kansal",
     "profile_picture_url": "/vikesh.jpg",
-    "team": "Projects Team",
+    "team": "Projects",
     "year": "2026-present"
   },
   {
@@ -210,13 +204,13 @@
   {
     "name": "Balalikhith Kanigolla",
     "profile_picture_url": "",
-    "team": "Projects Team",
+    "team": "Projects",
     "year": "2026-present"
   },
   {
     "name": "Sian Shinjo",
     "profile_picture_url": "",
-    "team": "Projects Team",
+    "team": "Projects",
     "year": "2026-present"
   }
 ]

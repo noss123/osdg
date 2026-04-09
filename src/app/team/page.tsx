@@ -37,14 +37,6 @@ const TeamPage: React.FC = () => {
 
   const coordinatorMembers = groupByTeam('Coordinators');
   const techMembers = groupByTeam('Projects');
-  // Ensure tech members without profile pictures appear at the end.
-  // Preserve alphabetical order otherwise.
-  const techMembersSorted = techMembers.slice().sort((a, b) => {
-    const aHas = !!(a.profile_picture_url && a.profile_picture_url.trim() !== '');
-    const bHas = !!(b.profile_picture_url && b.profile_picture_url.trim() !== '');
-    if (aHas === bHas) return a.name.localeCompare(b.name);
-    return aHas ? -1 : 1;
-  });
   const corporateMembers = groupByTeam('Corporate');
   const eventMembers = groupByTeam('Events and Logistics');
   const designMembers = groupByTeam('Design');
@@ -112,7 +104,7 @@ const TeamPage: React.FC = () => {
             Projects
           </h2>
           <div className="flex flex-wrap justify-center gap-12">
-            {techMembersSorted.map((member, idx) => (
+            {techMembers.map((member, idx) => (
               <MemberCard key={idx} member={member} />
             ))}
           </div>
