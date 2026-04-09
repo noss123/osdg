@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import VetalGhost from "./VetalGhost";
 import ChatModal from "./ChatModal";
+import { useAuth } from "@/contexts/AuthContext";
 
 interface VetalBotDelayedProps {
   mode?: "general" | "vpn-troubleshooting";
@@ -19,6 +20,7 @@ interface VetalBotDelayedProps {
 
 export default function VetalBotDelayed({ mode = "general", vpnContext, onOpenChat, forceOpen, onForceHandled }: VetalBotDelayedProps) {
   const pathname = usePathname();
+  const { user } = useAuth();
   const [isChatOpen, setIsChatOpen] = useState(false);
   const [showBot, setShowBot] = useState(false);
   const [isHovering, setIsHovering] = useState(false);
@@ -36,19 +38,19 @@ export default function VetalBotDelayed({ mode = "general", vpnContext, onOpenCh
 
   // Handle external force open
   useEffect(() => {
-    if (forceOpen && !isChatOpen) {
+    if (forceOpen && !isChatOpen && user) {
       setIsChatOpen(true);
       if (onOpenChat) onOpenChat();
       if (onForceHandled) onForceHandled();
     }
-  }, [forceOpen, isChatOpen, onOpenChat, onForceHandled]);
+  }, [forceOpen, isChatOpen, onOpenChat, onForceHandled, user]);
 
   const handleOpenChat = () => {
     setIsChatOpen(true);
     if (onOpenChat) onOpenChat();
   };
 
-  if (!showBot || shouldHideGlobalBot) return null;
+  if (!showBot || shouldHideGlobalBot || !user) return null;
 
   return (
     <>

@@ -36,7 +36,7 @@ const TeamPage: React.FC = () => {
   };
 
   const coordinatorMembers = groupByTeam('Coordinators');
-  const techMembers = groupByTeam('Tech Team');
+  const techMembers = groupByTeam('Projects Team');
   // Ensure tech members without profile pictures appear at the end.
   // Preserve alphabetical order otherwise.
   const techMembersSorted = techMembers.slice().sort((a, b) => {
@@ -108,7 +108,7 @@ const TeamPage: React.FC = () => {
       {techMembers.length > 0 && (
         <div className="max-w-7xl mx-auto mb-20">
           <h2 className="text-4xl font-bold text-center mb-16 text-cyan-400 font-oxanium">
-            Tech Team
+            Projects Team
           </h2>
           <div className="flex flex-wrap justify-center gap-12">
             {techMembersSorted.map((member, idx) => (
